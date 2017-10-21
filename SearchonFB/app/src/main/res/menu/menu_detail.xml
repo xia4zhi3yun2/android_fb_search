@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.xia4z.searchonfb.DetailActivity">
+    <item
+        android:id="@+id/add_favorite"
+        android:orderInCategory="100"
+        android:title="Add to Favorite"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/post_to"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="never" />
+</menu>
